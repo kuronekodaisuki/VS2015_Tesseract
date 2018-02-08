@@ -238,12 +238,12 @@
       <CompileAs>CompileAsCpp</CompileAs>
       <AdditionalIncludeDirectories>$(SolutionDir)openjpeg;$(SolutionDir)zlib\include;$(SolutionDir)libpng;$(SolutionDir)libjpeg;$(SolutionDir)libtiff;$(SolutionDir)giflib;$(SolutionDir)libwebp\src;$(ProjectDir)</AdditionalIncludeDirectories>
       <OmitFramePointers>false</OmitFramePointers>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <StringPooling>true</StringPooling>
       <SDLCheck>false</SDLCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <AdditionalOptions>/Qvec-report:1</AdditionalOptions>
+      <AdditionalOptions>/Qvec-report:1 /source-charset:utf-8</AdditionalOptions>
       <FloatingPointModel>Fast</FloatingPointModel>
       <DisableSpecificWarnings>4244;4305</DisableSpecificWarnings>
     </ClCompile>
